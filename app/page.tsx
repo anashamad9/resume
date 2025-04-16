@@ -197,7 +197,7 @@ export default function Portfolio() {
                   },
                   {
                     icon: (
-                      <Image src="https://anashamad.site/images/image%20(4).png" alt="Kaggle" width={20} height={20} />
+                      <Image src="https://cdn.iconscout.com/icon/free/png-256/free-kaggle-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-4-pack-logos-icons-3146903.png" alt="Kaggle" width={20} height={20} />
                     ),
                     label: "Kaggle",
                     href: "https://www.kaggle.com/anasbassam",
@@ -336,7 +336,7 @@ export default function Portfolio() {
                     {[
                       {
                         name: "Python",
-                        logo: "https://anashamad.site/images/embedded-python-training-300x300.jpg",
+                        logo: "https://www.shareicon.net/data/2015/09/03/95038_web_512x512.png",
                         url: "https://www.python.org/",
                       },
                       {
