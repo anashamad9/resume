@@ -1,0 +1,110 @@
+/* Blog specific styles */
+.blog-card {
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+[dir="rtl"] .blog-card .blog-arrow {
+  transform: scaleX(-1);
+}
+
+.blog-tag {
+  transition: all 0.2s ease;
+}
+
+.blog-tag:hover {
+  transform: scale(1.05);
+}
+
+/* Enhanced RTL support for blog */
+[dir="rtl"] .blog-content {
+  text-align: right;
+}
+
+[dir="rtl"] .blog-content h1,
+[dir="rtl"] .blog-content h2,
+[dir="rtl"] .blog-content h3,
+[dir="rtl"] .blog-content h4,
+[dir="rtl"] .blog-content h5,
+[dir="rtl"] .blog-content h6,
+[dir="rtl"] .blog-content p,
+[dir="rtl"] .blog-content ul,
+[dir="rtl"] .blog-content ol {
+  text-align: right;
+}
+
+/* Additional RTL styling for blog */
+[dir="rtl"] .rtl-content {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .rtl-content * {
+  text-align: right;
+}
+
+/* Fix for RTL spacing */
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+
+[dir="rtl"] .ml-2 {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+
+[dir="rtl"] .ml-1 {
+  margin-left: 0;
+  margin-right: 0.25rem;
+}
+
+[dir="rtl"] .mr-1 {
+  margin-right: 0;
+  margin-left: 0.25rem;
+}
+
+/* Fix for RTL text alignment */
+[dir="rtl"] .text-right {
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: left;
+}
+
+/* Fix for RTL in blog pages */
+[dir="rtl"] .prose {
+  direction: rtl;
+}
+
+/* Fix for language switcher in blog */
+.language-switcher {
+  z-index: 50;
+}
+
+/* Fix for RTL flex issues */
+[dir="rtl"] .flex-row-reverse {
+  flex-direction: row;
+}
+
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* Fix for RTL justify content */
+[dir="rtl"] .justify-start {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .justify-end {
+  justify-content: flex-start;
+}
+
+/* Fix for RTL images */
+[dir="rtl"] img {
+  transform: none;
+}
