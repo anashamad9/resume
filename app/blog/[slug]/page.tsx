@@ -156,3 +156,10 @@ export default function BlogPostPage() {
     </div>
   )
 }
+export async function generateStaticParams() {
+  return [
+    { slug: 'post-1' },
+    { slug: 'my-second-post' },
+    { slug: 'about-me' },
+  ];
+}
