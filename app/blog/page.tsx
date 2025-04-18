@@ -82,7 +82,7 @@ export default function BlogPage() {
         </div>
 
         {/* Blog Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/*<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {blogPosts.map((post) => (
             <Link key={post.id} href={`/blog/${post.slug}`} className="group">
               <div className="blog-card border border-neutral-200 dark:border-neutral-800 rounded-xl overflow-hidden transition-all duration-300 hover:border-neutral-300 hover:shadow-md dark:hover:border-neutral-700 dark:hover:shadow-md h-full flex flex-col">
@@ -143,7 +143,7 @@ export default function BlogPage() {
               </div>
             </Link>
           ))}
-        </div>
+        </div>*/}
       </div>
     </div>
   )
