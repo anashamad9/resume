@@ -61,7 +61,7 @@ export default function Portfolio() {
             <div className="flex items-center justify-between gap-8">
               <div className="flex items-center gap-4 group">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D4D03AQG8O6QLXP-0Lg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1705436353196?e=1744848000&v=beta&t=udAGKaA2nQvBzjO3xnXlDLk-y8b1sApB4h5L5Y8Ykls"
+                  src="https://media.licdn.com/dms/image/v2/D4D03AQG8O6QLXP-0Lg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705436353196?e=1750291200&v=beta&t=cadi9ieLU2QczqtmX-ykFFO3Cnufa7YYNN06rfnX2gg"
                   alt="Anas Hamad"
                   width={60}
                   height={60}
