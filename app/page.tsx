@@ -743,8 +743,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      {/* Fixed Navigation Bar - Fixed the RTL issues here */}
-      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white/80 dark:bg-black/80 backdrop-blur-sm rounded-full shadow-lg px-4 py-2 border border-neutral-200 dark:border-neutral-800">
+     {/* Fixed Navigation Bar - Fixed the RTL issues here */}
+      <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-white/80 dark:bg-black/80 backdrop-blur-md rounded-2xl shadow-lg px-4 py-2 border border-neutral-200 dark:border-neutral-800">
         <div className={cn("flex items-center", language === "ar" ? "gap-4 rtl" : "space-x-4")}>
           {[
             { icon: <User className="w-4 h-4" />, label: t("about"), section: "about", href: "#about" },
@@ -781,11 +781,11 @@ export default function Portfolio() {
                   }
                 }}
                 className={cn(
-                  "p-2 rounded-full transition-all duration-200",
+                  "p-2 rounded-lg transition-all duration-200",
                   activeSection === section
                     ? "text-white bg-neutral-800 dark:bg-neutral-700"
                     : special
-                      ? "text-white bg-blue-500 hover:bg-blue-600 hover:shadow-md hover:scale-105"
+                      ? "text-white bg-blue-600 hover:bg-blue-700 hover:shadow-md hover:scale-105"
                       : "text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100",
                 )}
               >
